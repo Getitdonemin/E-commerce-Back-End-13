@@ -1,26 +1,31 @@
 {
-    "name": "e-commercebackend",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js",
-        "watch": "nodemon server.js",
-        "seed": "node seeds/index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Getitdonemin/E-commerceBackEnd"
-    },
-    "author": "John Kim",
-    "devDependencies": {
-        "nodemon": "^2.0.3"
-    },
-    "dependencies": {
-        "dotenv": "^8.6.0",
-        "express": "^4.17.1",
-        "mysql2": "^2.3.3",
-        "sequelize": "^5.22.5"
-    }
+  "name": "e-commercebackend",
+  "version": "1.0.0",
+  "description": "Internet retail, also known as e-commerce, is the largest sector of the electronics industry, having generated an estimated US$29 trillion in 2017 (Source: United Nations Conference on Trade and Development). E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node seeds/index && npm run watch",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Getitdonemin/E-commerceBackEnd.git"
+  },
+  "author": "John Kim",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^5.22.5"
+  },
+  "bugs": {
+    "url": "https://github.com/Getitdonemin/E-commerceBackEnd/issues"
+  },
+  "homepage": "https://github.com/Getitdonemin/E-commerceBackEnd#readme",
+  "license": "ISC"
 }
