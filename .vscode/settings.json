@@ -6,7 +6,6 @@
             },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 8080,
             "driver": "MySQL",
             "name": "ecommercebackend",
             "username": "root",
