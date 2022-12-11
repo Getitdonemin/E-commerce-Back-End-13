@@ -101,6 +101,7 @@ After creating the models and routes, run `npm run seed` to seed data to your da
 ## Sync Sequelize to the Database on Server Start
 Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
 
-## Walkthrough video: 
+## Walkthrough video: [WalkthroughVideoofecommercebackend.webm](https://user-images.githubusercontent.com/107437104/206892744-8c1c0872-f55d-4e03-b8ac-4c65cc200850.webm)
+
 
 ## URL of the GitHub repository: https://github.com/Getitdonemin/E-commerceBackEnd
