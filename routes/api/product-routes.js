@@ -68,7 +68,7 @@ router.post('/', (req, res) => {
     }
   */
   Product.create({
-    product_name: req.body.product.name,
+    product_name: req.body.product_name,
     price: req.body.price,
     stock: req.body.stock,
     tagIds: req.body.tagIds

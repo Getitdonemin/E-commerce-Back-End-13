@@ -6,7 +6,7 @@ const { update } = require('../../models/Category');
 router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
-  Comment.findAll({
+  Category.findAll({
     include: 
       {
         model: Product,
